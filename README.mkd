@@ -1,0 +1,14 @@
+EXCEL-VBS
+=========
+
+./
+--
+- myloopbase.bas
+- run_GetRandom.bas
+- 
+
+modules/
+--------
+- GetFilePath.bas
+- GetRandom.bas
+
