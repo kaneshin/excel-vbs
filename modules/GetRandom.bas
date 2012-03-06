@@ -1,7 +1,7 @@
 Attribute VB_Name = "GetRandom"
 ' ---------------------------------------------------------------------------
 ' Name: get_random_integer
-' Description: You can get a random Integer.
+' Description: You can get a random integer value.
 ' ---------------------------------------------------------------------------
 Public Function get_random_integer( _
     ByVal lower As Integer, _
@@ -17,10 +17,10 @@ Public Function get_random_integer( _
 End Function
 
 ' ---------------------------------------------------------------------------
-' Name: get_random_double
-' Description: You can get a random Double.
+' Name: get_random_float
+' Description: You can get a random float value.
 ' ---------------------------------------------------------------------------
-Public Function get_random_double( _
+Public Function get_random_float( _
     ByVal lower As Double, _
     ByVal upper As Double _
 ) As Double
@@ -29,13 +29,13 @@ Public Function get_random_double( _
         Exit Function
     End If
 
-    get_random_double = (upper - lower) * Rnd + lower
+    get_random_float = (upper - lower) * Rnd + lower
 
 End Function
 
 ' ---------------------------------------------------------------------------
 ' Name: get_random_char
-' Description: You can get a random Char.
+' Description: You can get a random character.
 ' ---------------------------------------------------------------------------
 Public Function get_random_char() As String
 
@@ -57,7 +57,7 @@ End Function
 
 ' ---------------------------------------------------------------------------
 ' Name: get_random_string
-' Description: You can get a random String.
+' Description: You can get a random string.
 ' ---------------------------------------------------------------------------
 Public Function get_random_string(ByVal length As Integer) As String
 
