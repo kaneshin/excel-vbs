@@ -2,8 +2,8 @@ Attribute VB_Name = "GetFilePath"
 ' ---------------------------------------------------------------------------
 ' Name: get_filepath
 ' Description:
-'   You can choose the file on the file dialog.
-'   You get the name of selected file.
+'   You can choose a file on the file dialog.
+'   Then, You can get a name of selected file.
 ' Arguments:
 '   filepath
 '   fileinfo
